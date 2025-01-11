@@ -1,3 +1,4 @@
+/*zerando as configurações iniciasi do css*/
 *{
     margin: 0;
     padding: 0;
@@ -6,12 +7,14 @@
     outline: none;
 }
 
+/*definindo a imagem de fundo e os padrões de nao repetição e cover*/
 body{
     background: url(./img/background.png) no-repeat center center;
     background-size: cover;
     height: 100vh;
 }
 
+/*dimensionando as imagens e o comportamento para a animação*/
 img{
     height: 25px;
     opacity: 0;
@@ -19,6 +22,7 @@ img{
 
 }
 
+/*dimensionando a div principal*/ 
 .content{
     background-color: #d1d1d1;
     width: 500px;
@@ -27,6 +31,7 @@ img{
     margin: 100px auto 0;
 }
 
+/*dimensionando e stilizando o input que recebera as task*/
 .input_task{
     border: none;
     border-radius: 5px;
@@ -36,6 +41,7 @@ img{
 
 }
 
+/*estilizando o botao que adiciona os input's*/
 .button_add_task{
     border: none;
     border-radius: 5px;
@@ -57,12 +63,14 @@ img{
     opacity: 0.6;
 }
 
+/*estilizando a lista de tarefas*/
 .list_task{
     width: 100%;
     list-style: none;
     margin-top: 30px;
 }
 
+/*estilizabndo a tarefa da lista*/
 .task{
     display: flex;
     align-items: center;
@@ -80,6 +88,7 @@ img{
     opacity: 1;
 }
 
+/*condição que estiliza uma tarefa concluida*/
 .done{
     background-color: #8fac55;
     text-decoration: line-through;
